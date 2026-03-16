@@ -1,0 +1,51 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "Run": {
+        "Description": "run-block index (within session)"
+    },
+    "TrialNumber": {
+        "Description": "no description"
+    },
+    "finger": {
+        "Description": "finger movement cued by text"
+    },
+    "hand": {
+        "Description": "left or right hand for finger movement"
+    },
+    "finger_type": {
+        "Description": "finger-type, ignoring left/right"
+    },
+    "cue_on_time": {
+        "Description": "no description"
+    },
+    "cue_off_time": {
+        "Description": "no description"
+    },
+    "go_on_time": {
+        "Description": "no description"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file.",
+            "epochs": "The 'epochs' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial",
+            "epochs": "Time-block"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    },
+    "epochs": {
+        "Description": "experimental epochs"
+    }
+}
