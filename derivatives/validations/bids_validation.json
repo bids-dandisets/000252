@@ -62,51 +62,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -118,30 +78,6 @@
           "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -161,46 +97,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
         "severity": "warning",
@@ -216,57 +112,17 @@
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
       },
       {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
-      },
-      {
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_channels.tsv",
         "issueMessage": "entity: ses label: 2019-02-12 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-N1/ses-2019-02-12/ecephys/sub-N1_ses-2019-02-12_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -333,51 +189,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -389,30 +205,6 @@
           "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -432,46 +224,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
         "severity": "warning",
@@ -485,54 +237,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -576,6 +280,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_channels.tsv",
         "issueMessage": "entity: ses label: 2019-12-20 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-N1/ses-2019-12-20/ecephys/sub-N1_ses-2019-12-20_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -637,51 +349,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -693,30 +365,6 @@
           "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -736,46 +384,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
         "severity": "warning",
@@ -789,54 +397,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -862,6 +422,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_channels.tsv",
         "issueMessage": "entity: ses label: 2016-05-16 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2016-05-16/ecephys/sub-P1_ses-2016-05-16_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -1011,26 +579,18 @@
         "severity": "error"
       },
       {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "error"
+      },
+      {
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
         "issueMessage": "entity: ses label: 2015-08-12 pattern: [0-9a-zA-Z+]+",
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -1039,30 +599,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -1074,30 +610,6 @@
           "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -1117,46 +629,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
         "severity": "warning",
@@ -1170,54 +642,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2015-08-12/ecephys/sub-P1_ses-2015-08-12_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -1283,51 +707,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -1339,30 +723,6 @@
           "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -1382,46 +742,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
         "severity": "warning",
@@ -1435,54 +755,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -1506,6 +778,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_channels.tsv",
         "issueMessage": "entity: ses label: 2016-05-20 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2016-05-20/ecephys/sub-P1_ses-2016-05-20_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -1538,6 +818,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_channels.tsv",
         "issueMessage": "entity: ses label: 2016-04-27 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -1596,51 +884,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -1652,30 +900,6 @@
           "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -1695,46 +919,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
         "severity": "warning",
@@ -1748,54 +932,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2016-04-27/ecephys/sub-P1_ses-2016-04-27_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -1817,51 +953,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -1873,30 +969,6 @@
           "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -1916,46 +988,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
         "severity": "warning",
@@ -1969,54 +1001,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -2064,6 +1048,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_channels.tsv",
         "issueMessage": "entity: ses label: 2016-05-04 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2016-05-04/ecephys/sub-P1_ses-2016-05-04_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -2130,51 +1122,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -2186,30 +1138,6 @@
           "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -2229,46 +1157,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
         "severity": "warning",
@@ -2284,57 +1172,17 @@
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
       },
       {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
-      },
-      {
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_channels.tsv",
         "issueMessage": "entity: ses label: 2016-05-11 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2016-05-11/ecephys/sub-P1_ses-2016-05-11_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -2413,51 +1261,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -2469,30 +1277,6 @@
           "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -2512,46 +1296,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
         "severity": "warning",
@@ -2565,54 +1309,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -2648,6 +1344,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_channels.tsv",
         "issueMessage": "entity: ses label: 2016-05-23 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2016-05-23/ecephys/sub-P1_ses-2016-05-23_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -2698,6 +1402,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_channels.tsv",
         "issueMessage": "entity: ses label: 2015-08-21 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -2788,51 +1500,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -2844,30 +1516,6 @@
           "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -2887,46 +1535,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
         "severity": "warning",
@@ -2940,54 +1548,6 @@
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSample",
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2015-08-21/ecephys/sub-P1_ses-2015-08-21_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
       },
       {
         "code": "INVALID_ENTITY_LABEL",
@@ -3015,51 +1575,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -3071,30 +1591,6 @@
           "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -3114,46 +1610,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
         "severity": "warning",
@@ -3169,57 +1625,17 @@
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
       },
       {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
-      },
-      {
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_channels.tsv",
         "issueMessage": "entity: ses label: 2015-08-17 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2015-08-17/ecephys/sub-P1_ses-2015-08-17_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       },
       {
@@ -3366,51 +1782,11 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionAddress",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "InstitutionalDepartmentName",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysInstitutionInformation",
-        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
         "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
         "severity": "warning",
         "rule": "rules.sidecars.microephys.microephysSetup",
         "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelName",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "ManufacturersModelVersion",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's model version of the equipment that produced the measurements.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "RecordingSetupName",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Custom name of the recording setup.\n"
       },
       {
         "code": "JSON_SCHEMA_VALIDATION_ERROR",
@@ -3422,30 +1798,6 @@
           "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb"
         ],
         "severity": "error"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "DeviceSerialNumber",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareName",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Name of the software that was used to present the stimuli.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SoftwareVersions",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSetup",
-        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
@@ -3465,46 +1817,6 @@
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalName",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Name of pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseAmount",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseUnits",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseRegimen",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "PharmaceuticalDoseTime",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysPharmaceuticals",
-        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "BodyPart",
         "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
         "severity": "warning",
@@ -3520,54 +1832,6 @@
         "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n"
       },
       {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "SampleEnvironment",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysSample",
-        "issueMessage": "Field description: Environment in which the sample was imaged. MUST be one of: `\"in vivo\"`, `\"ex vivo\"`\nor `\"in vitro\"`.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskName",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "TaskDescription",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Longer description of the task.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "Instructions",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogAtlasID",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n"
-      },
-      {
-        "code": "SIDECAR_KEY_RECOMMENDED",
-        "subCode": "CogPOID",
-        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_ecephys.nwb",
-        "severity": "warning",
-        "rule": "rules.sidecars.microephys.microephysTaskInformation",
-        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n"
-      },
-      {
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_probes.json",
         "issueMessage": "entity: ses label: 2015-08-14 pattern: [0-9a-zA-Z+]+",
@@ -3577,6 +1841,14 @@
         "code": "INVALID_ENTITY_LABEL",
         "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_channels.tsv",
         "issueMessage": "entity: ses label: 2015-08-14 pattern: [0-9a-zA-Z+]+",
+        "severity": "error"
+      },
+      {
+        "code": "TSV_COLUMN_MISSING",
+        "subCode": "sampling_frequency",
+        "location": "/sub-P1/ses-2015-08-14/ecephys/sub-P1_ses-2015-08-14_channels.tsv",
+        "issueMessage": "Required initial column 5 not found.",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
         "severity": "error"
       }
     ],
@@ -3588,6 +1860,7 @@
       "INVALID_ENTITY_LABEL": "entity label doesn't match format found for files with this suffix",
       "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended.",
       "JSON_SCHEMA_VALIDATION_ERROR": "Invalid JSON sidecar file. The sidecar is not formatted according the schema.",
+      "TSV_COLUMN_MISSING": "A required column is missing",
       "TSV_COLUMN_TYPE_REDEFINED": "A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored."
     }
   },
