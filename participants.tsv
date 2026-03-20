@@ -1,3 +1,3 @@
-participant_id	species	sex
-sub-N1	Homo sapiens	M
-sub-P1	Homo sapiens	F
+participant_id	original_participant_id	species	sex
+sub-N1	sub-N1	Homo sapiens	M
+sub-P1	sub-P1	Homo sapiens	F
